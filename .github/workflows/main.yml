@@ -6,6 +6,8 @@ on:
 jobs:
   test-bot:
     runs-on: ubuntu-latest
+    container:
+      image: homebrew/brew
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
