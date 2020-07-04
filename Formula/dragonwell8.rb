@@ -5,7 +5,7 @@ class Dragonwell8 < Formula
   version "8.3.3-GA"
   sha256 "09a149f2becdc86149e045e44d67a70ca399e1e6a9ec423869c11d639ffa4054"
 
-  keg_only "Conflicts with other Java installs"
+  keg_only "it conflicts with other Java installs"
 
   def install
     prefix.install Dir["*"]
